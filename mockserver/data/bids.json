@@ -1,0 +1,111 @@
+{
+  "bids": [
+    {
+      "id": "1",
+      "auctionId": "1",
+      "userId": "1",
+      "amount": 100,
+      "timestamp": "2025-09-18T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "auctionId": "9",
+      "productId": "13",
+      "amount": 300,
+      "buyerId": "24",
+      "status": "active",
+      "bidTime": "2025-10-02T06:48:06.535Z",
+      "createdAt": "2025-10-02T06:48:06.535Z"
+    },
+    {
+      "id": "3",
+      "auctionId": "3",
+      "productId": "13",
+      "amount": 5300,
+      "buyerId": "27",
+      "status": "active",
+      "bidTime": "2025-10-02T06:48:28.402Z",
+      "createdAt": "2025-10-02T06:48:28.402Z"
+    },
+    {
+      "id": "4",
+      "auctionId": "3",
+      "productId": "13",
+      "amount": 10300,
+      "buyerId": "24",
+      "status": "active",
+      "bidTime": "2025-10-02T06:49:26.094Z",
+      "createdAt": "2025-10-02T06:49:26.094Z"
+    },
+    {
+      "id": "5",
+      "auctionId": "46",
+      "productId": "12",
+      "amount": 2000,
+      "buyerId": "30",
+      "status": "active",
+      "bidTime": "2025-10-03T04:07:57.049Z",
+      "createdAt": "2025-10-03T04:07:57.049Z"
+    },
+    {
+      "id": "6",
+      "auctionId": "51",
+      "productId": "24",
+      "amount": 45,
+      "buyerId": "30",
+      "status": "active",
+      "bidTime": "2025-10-03T11:49:07.524Z",
+      "createdAt": "2025-10-03T11:49:07.524Z"
+    },
+    {
+      "id": "7",
+      "auctionId": "72",
+      "productId": "24",
+      "amount": 5045,
+      "buyerId": "30",
+      "status": "active",
+      "bidTime": "2025-10-03T11:49:29.970Z",
+      "createdAt": "2025-10-03T11:49:29.970Z"
+    },
+    {
+      "id": "8",
+      "auctionId": "103",
+      "productId": "1",
+      "amount": 44,
+      "buyerId": "23",
+      "status": "active",
+      "bidTime": "2025-10-03T12:43:14.622Z",
+      "createdAt": "2025-10-03T12:43:14.622Z"
+    },
+    {
+      "id": "9",
+      "auctionId": "103",
+      "productId": "1",
+      "amount": 5044,
+      "buyerId": "23",
+      "status": "active",
+      "bidTime": "2025-10-03T12:43:39.462Z",
+      "createdAt": "2025-10-03T12:43:39.462Z"
+    },
+    {
+      "id": "10",
+      "auctionId": "115",
+      "productId": "17",
+      "amount": 44,
+      "buyerId": "23",
+      "status": "active",
+      "bidTime": "2025-10-05T17:55:17.679Z",
+      "createdAt": "2025-10-05T17:55:17.679Z"
+    },
+    {
+      "id": "11",
+      "auctionId": "138",
+      "productId": "17",
+      "amount": 5044,
+      "buyerId": "23",
+      "status": "active",
+      "bidTime": "2025-10-05T17:55:46.217Z",
+      "createdAt": "2025-10-05T17:55:46.217Z"
+    }
+  ]
+}

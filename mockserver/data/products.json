@@ -1,0 +1,207 @@
+{
+  "products": [
+    {
+      "id": "11",
+      "product_model": "Verna",
+      "model_year": 1990,
+      "auction_date": "2026-03-23",
+      "auction_time": "23:30",
+      "auction_duration": 24,
+      "starting_price": 100,
+      "reserve_price": 5000,
+      "description": "qwertyuioplkmnbvcxzasdfghjklpoiuytrewsdfghjkl,nbvcxzs",
+      "category": "General",
+      "status": "active",
+      "product_images": [
+        "product-images/verna/images-1759252632333-739328691.jpg",
+        "product-images/verna/images-1759252632334-641334282.jpg",
+        "product-images/verna/images-1759252632339-588159151.jpg",
+        "product-images/verna/images-1759252632348-736491031.jpg",
+        "product-images/verna/images-1759252632352-628049915.jpg"
+      ],
+      "sellerId": "24",
+      "createdAt": "2025-09-30T17:17:12.357Z",
+      "updatedAt": "2025-09-30T17:17:12.357Z"
+    },
+    {
+      "id": "12",
+      "product_model": "audi",
+      "model_year": 1999,
+      "auction_date": "2026-03-23",
+      "auction_time": "23:23",
+      "auction_duration": 23,
+      "starting_price": 100,
+      "reserve_price": 50000,
+      "description": "qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm",
+      "category": "General",
+      "status": "active",
+      "product_images": [
+        "product-images/audi/images-1759254961128-413220662.jpg",
+        "product-images/audi/images-1759254961131-572310187.jpg",
+        "product-images/audi/images-1759254961137-113980639.jpg",
+        "product-images/audi/images-1759254961138-458632467.jpg",
+        "product-images/audi/images-1759254961145-695714218.jpg",
+        "product-images/audi/images-1759254961152-437662806.jpg"
+      ],
+      "sellerId": "24",
+      "createdAt": "2025-09-30T17:56:01.159Z",
+      "updatedAt": "2025-09-30T17:56:01.159Z"
+    },
+    {
+      "id": "13",
+      "product_model": "benz",
+      "model_year": 2002,
+      "auction_date": "2026-01-23",
+      "auction_time": "23:30",
+      "auction_duration": 24,
+      "starting_price": 100,
+      "reserve_price": 5000,
+      "description": "wertyuiokkdqnms vcmnisduhv nmk;o nbdkdosygjv ndwiojvg nkweohv",
+      "category": "General",
+      "status": "terminated",
+      "product_images": [
+        "product-images/benz/images-1759288759323-391625314.jpg",
+        "product-images/benz/images-1759288759324-403100648.jpg",
+        "product-images/benz/images-1759288759325-66430220.jpg",
+        "product-images/benz/images-1759288759326-86100265.jpg",
+        "product-images/benz/images-1759288759327-543547219.jpg"
+      ],
+      "sellerId": "24",
+      "createdAt": "2025-10-01T03:19:19.336Z",
+      "updatedAt": "2025-10-01T03:19:19.336Z"
+    },
+    {
+      "id": "14",
+      "product_model": "Thar",
+      "model_year": 2019,
+      "auction_date": "2025-10-03",
+      "auction_time": "18:13",
+      "auction_duration": 0,
+      "starting_price": 21,
+      "reserve_price": 2232,
+      "description": "fyukdgdwqgydwgdyjwqgdjdguwqgdjudgudgujdgudgwjugwjdgdjwqdg",
+      "category": "General",
+      "status": "Terminated",
+      "product_images": [
+        "product-images/dodge/images-1759495289832-838071385.webp"
+      ],
+      "sellerId": "23",
+      "createdAt": "2025-10-03T12:41:29.836Z",
+      "updatedAt": "2025-10-03T12:41:29.836Z"
+    },
+    {
+      "id": "15",
+      "product_model": "Dodge",
+      "model_year": 2017,
+      "auction_date": "2025-10-08",
+      "auction_time": "23:44",
+      "auction_duration": 11,
+      "starting_price": 21,
+      "reserve_price": 2232,
+      "description": "iwhwafdkehfkhcsdkjfhdsfkshfkdsfhdkfdhfkdhfkdsfh,kn,k",
+      "category": "General",
+      "status": "active",
+      "product_images": [
+        "product-images/dodge/images-1759575403172-955212253.webp"
+      ],
+      "sellerId": "23",
+      "createdAt": "2025-10-04T10:56:43.186Z",
+      "updatedAt": "2025-10-04T10:56:43.186Z"
+    },
+    {
+      "id": "16",
+      "product_model": "Verna",
+      "model_year": 2018,
+      "auction_date": "2025-10-31",
+      "auction_time": "12:33",
+      "auction_duration": 1,
+      "starting_price": 23,
+      "reserve_price": 2321,
+      "description": "whqeiuwqheuwqhdkdhekdhkdhsdksjdksjksjdjkdsfjldlkfj",
+      "category": "General",
+      "status": "active",
+      "product_images": [
+        "product-images/verna/images-1759575637700-122336362.jpg"
+      ],
+      "sellerId": "23",
+      "createdAt": "2025-10-04T11:00:37.738Z",
+      "updatedAt": "2025-10-04T11:00:37.738Z"
+    },
+    {
+      "id": "17",
+      "product_model": "Audi",
+      "model_year": 2017,
+      "auction_date": "2025-10-05",
+      "auction_time": "23:25",
+      "auction_duration": 0,
+      "starting_price": 34,
+      "reserve_price": 40,
+      "description": "2008 model audi. Single ownership. 20000kms. Timely service. Company products only.",
+      "category": "General",
+      "status": "active",
+      "product_images": [
+        "product-images/audi/images-1759684552857-822162791.jpeg"
+      ],
+      "sellerId": "23",
+      "createdAt": "2025-10-05T17:15:52.896Z",
+      "updatedAt": "2025-10-05T17:15:52.896Z"
+    },
+    {
+      "id": "18",
+      "product_model": "benz",
+      "model_year": 2021,
+      "auction_date": "2025-10-15",
+      "auction_time": "03:54",
+      "auction_duration": 3,
+      "starting_price": 455,
+      "reserve_price": 5565,
+      "description": "tdfgfcghcghcghcghcgcghcghcghcghcghcghchgchchhgcghcghg",
+      "category": "General",
+      "status": "active",
+      "product_images": [
+        "product-images/benz/images-1759688649512-938467098.jpeg"
+      ],
+      "sellerId": "23",
+      "createdAt": "2025-10-05T18:24:09.536Z",
+      "updatedAt": "2025-10-05T18:24:09.537Z"
+    },
+    {
+      "id": "19",
+      "product_model": "jbhj",
+      "model_year": 2017,
+      "auction_date": "2025-10-20",
+      "auction_time": "03:04",
+      "auction_duration": 1,
+      "starting_price": 45,
+      "reserve_price": 767,
+      "description": "ftdgjhcgcghcghcghfhftyftyftyftyftfhgfghfghfhfhfhfh",
+      "category": "General",
+      "status": "active",
+      "product_images": [
+        "product-images/jbhj/images-1759689025670-853022197.jpeg"
+      ],
+      "sellerId": "23",
+      "createdAt": "2025-10-05T18:30:25.692Z",
+      "updatedAt": "2025-10-05T18:30:25.693Z"
+    },
+    {
+      "id": "20",
+      "product_model": "Dodge",
+      "model_year": 2017,
+      "auction_date": "2025-10-16",
+      "auction_time": "13:00",
+      "auction_duration": 1,
+      "starting_price": 34,
+      "reserve_price": 45,
+      "description": "Better quality product. 2011 model product. Single owner",
+      "category": "General",
+      "status": "active",
+      "product_images": [
+        "product-images/dodge/images-1759731494917-249797278.webp"
+      ],
+      "sellerId": "24",
+      "createdAt": "2025-10-06T06:18:14.926Z",
+      "updatedAt": "2025-10-06T06:18:14.926Z"
+    }
+  ]
+}

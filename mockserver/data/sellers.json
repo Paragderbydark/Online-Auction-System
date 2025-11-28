@@ -1,0 +1,109 @@
+{
+  "sellers": [
+    {
+      "id": "1",
+      "userId": "3",
+      "username": "user2",
+      "email": "user2@auction.com",
+      "createdAt": "2025-09-25T08:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "5",
+      "username": "bob",
+      "email": "bob@test.com",
+      "createdAt": "2025-09-25T08:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": "7",
+      "username": "example",
+      "email": "example@test.com",
+      "createdAt": "2025-09-25T08:53:33.435Z"
+    },
+    {
+      "id": "4",
+      "userId": "8",
+      "username": "auction",
+      "email": "auction@test.com",
+      "createdAt": "2025-09-25T08:55:24.014Z"
+    },
+    {
+      "id": "5",
+      "userId": "10",
+      "username": "bid123",
+      "email": "bid@bid.com",
+      "createdAt": "2025-09-25T09:01:29.882Z"
+    },
+    {
+      "id": "6",
+      "userId": "13",
+      "username": "parag1",
+      "email": "parag1@gmail.com",
+      "createdAt": "2025-09-25T09:51:21.587Z"
+    },
+    {
+      "id": "7",
+      "userId": "16",
+      "username": "seller23",
+      "email": "seller23@gmail.com",
+      "createdAt": "2025-09-26T05:32:59.822Z"
+    },
+    {
+      "id": "8",
+      "userId": "17",
+      "username": "all123",
+      "email": "all123@gmail.com",
+      "createdAt": "2025-09-26T05:44:34.698Z"
+    },
+    {
+      "id": "9",
+      "userId": "20",
+      "username": "nithun",
+      "email": "nithun@gmail.com",
+      "createdAt": "2025-09-26T09:53:06.596Z"
+    },
+    {
+      "id": "22",
+      "userId": "22",
+      "username": "allem",
+      "email": "allen@gmail.com",
+      "createdAt": "2025-09-30T08:36:19.920Z"
+    },
+    {
+      "id": "23",
+      "userId": "23",
+      "username": "allen",
+      "email": "allennn@gmail.com",
+      "createdAt": "2025-10-03T12:36:05.302Z"
+    },
+    {
+      "id": "24",
+      "userId": "25",
+      "username": "allenaa",
+      "email": "allenaa@gmail.com",
+      "createdAt": "2025-10-06T06:13:25.491Z"
+    },
+    {
+      "id": "25",
+      "userId": "26",
+      "username": "allen",
+      "email": "2002allen@gmail.com",
+      "createdAt": "2025-11-04T05:13:16.369Z"
+    },
+    {
+      "id": "28",
+      "userId": "31",
+      "username": "test",
+      "email": "test3@gmail.com",
+      "createdAt": "2025-10-30T13:12:01.974Z"
+    },
+    {
+      "id": "29",
+      "userId": "32",
+      "username": "pavan",
+      "email": "pavan@gmail.com",
+      "createdAt": "2025-10-30T13:15:06.860Z"
+    }
+  ]
+}

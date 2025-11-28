@@ -1,0 +1,151 @@
+{
+  "buyers": [
+    {
+      "id": "1",
+      "userId": "2",
+      "username": "user1",
+      "email": "user1@auction.com",
+      "createdAt": "2025-09-25T08:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": "3",
+      "username": "user2",
+      "email": "user2@auction.com",
+      "createdAt": "2025-09-25T08:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": "4",
+      "username": "alice",
+      "email": "alice@test.com",
+      "createdAt": "2025-09-25T08:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "userId": "6",
+      "username": "test",
+      "email": "test@testing.com",
+      "createdAt": "2025-09-25T08:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "userId": "7",
+      "username": "example",
+      "email": "example@test.com",
+      "createdAt": "2025-09-25T08:53:33.435Z"
+    },
+    {
+      "id": "6",
+      "userId": "9",
+      "username": "test12",
+      "email": "test12@gmail.com",
+      "createdAt": "2025-09-25T09:00:46.741Z"
+    },
+    {
+      "id": "7",
+      "userId": "10",
+      "username": "bid123",
+      "email": "bid@bid.com",
+      "createdAt": "2025-09-25T09:01:29.882Z"
+    },
+    {
+      "id": "8",
+      "userId": "11",
+      "username": "example123",
+      "email": "example123@test.com",
+      "createdAt": "2025-09-25T09:18:49.141Z"
+    },
+    {
+      "id": "9",
+      "userId": "12",
+      "username": "example1234",
+      "email": "example1234@test.com",
+      "createdAt": "2025-09-25T09:50:49.738Z"
+    },
+    {
+      "id": "10",
+      "userId": "15",
+      "username": "buyer23",
+      "email": "buyer23@gmail.com",
+      "createdAt": "2025-09-26T05:31:59.931Z"
+    },
+    {
+      "id": "11",
+      "userId": "17",
+      "username": "all123",
+      "email": "all123@gmail.com",
+      "createdAt": "2025-09-26T05:44:34.696Z"
+    },
+    {
+      "id": "12",
+      "userId": "18",
+      "username": "qwerty",
+      "email": "qwerty@gmail.com",
+      "createdAt": "2025-09-26T08:44:05.278Z"
+    },
+    {
+      "id": "13",
+      "userId": "19",
+      "username": "saisai",
+      "email": "sai@gmail.com",
+      "createdAt": "2025-09-26T08:54:49.684Z"
+    },
+    {
+      "id": "14",
+      "userId": "20",
+      "username": "nithun",
+      "email": "nithun@gmail.com",
+      "createdAt": "2025-09-26T09:53:06.593Z"
+    },
+    {
+      "id": "15",
+      "userId": "22",
+      "username": "allem",
+      "email": "allen@gmail.com",
+      "createdAt": "2025-09-30T08:36:19.922Z"
+    },
+    {
+      "id": "16",
+      "userId": "23",
+      "username": "allen",
+      "email": "allennn@gmail.com",
+      "createdAt": "2025-10-03T12:36:05.298Z"
+    },
+    {
+      "id": "17",
+      "userId": "24",
+      "username": "allen",
+      "email": "allena@gmail.com",
+      "createdAt": "2025-10-06T06:08:38.350Z"
+    },
+    {
+      "id": "18",
+      "userId": "25",
+      "username": "allenaa",
+      "email": "allenaa@gmail.com",
+      "createdAt": "2025-10-06T06:13:25.489Z"
+    },
+    {
+      "id": "19",
+      "userId": "26",
+      "username": "allen",
+      "email": "2002allen@gmail.com",
+      "createdAt": "2025-11-04T05:13:16.368Z"
+    },
+    {
+      "id": "24",
+      "userId": "31",
+      "username": "test",
+      "email": "test3@gmail.com",
+      "createdAt": "2025-10-30T13:12:01.970Z"
+    },
+    {
+      "id": "25",
+      "userId": "32",
+      "username": "pavan",
+      "email": "pavan@gmail.com",
+      "createdAt": "2025-10-30T13:15:06.859Z"
+    }
+  ]
+}

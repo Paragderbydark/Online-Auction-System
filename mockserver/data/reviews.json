@@ -1,0 +1,28 @@
+{
+  "reviews": [
+    {
+      "id": "1",
+      "productId": "1",
+      "userId": "1",
+      "rating": 5,
+      "comment": "Great product!",
+      "sellerId": "2"
+    },
+    {
+      "id": "2",
+      "productId": "2",
+      "userId": "2",
+      "rating": 4,
+      "comment": "Nice auction.",
+      "sellerId": "1"
+    },
+    {
+      "id": "3",
+      "productId": "1",
+      "userId": "1",
+      "rating": 5,
+      "comment": "Great!",
+      "sellerId": "2"
+    }
+  ]
+}

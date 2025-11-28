@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "id": "22",
+      "username": "allen",
+      "email": "allen@gmail.com",
+      "password": "$2a$10$Wsq79vEMK9LPQ1gvFYq2O.VRY08zA5MVyfvrQCPgNGpCX0g5MkmJW",
+      "role": "admin",
+      "isBuyer": true,
+      "isSeller": true,
+      "buyerId": "15",
+      "sellerId": "22",
+      "createdAt": "2025-09-30T08:36:19.920Z",
+      "updatedAt": "2025-10-03T05:16:49.551Z"
+    },
+    {
+      "id": "23",
+      "username": "allen",
+      "email": "allennn@gmail.com",
+      "password": "$2a$10$eBqjUKXUGYRTOomHRycVEOgqWopTSmSRleBGWlQCNEWoet6NBD2ZS",
+      "role": "admin",
+      "isBuyer": true,
+      "isSeller": true,
+      "buyerId": "16",
+      "sellerId": "23",
+      "createdAt": "2025-10-03T12:36:05.290Z"
+    },
+    {
+      "id": "24",
+      "username": "allen",
+      "email": "allena@gmail.com",
+      "password": "$2a$10$lQTT16V0jCdpaexD.6h7Y.LH.7hSgNiM2TI.fT1opfJPlKtTLslPa",
+      "role": "user",
+      "isBuyer": true,
+      "isSeller": false,
+      "buyerId": "17",
+      "sellerId": null,
+      "createdAt": "2025-10-06T06:08:38.347Z"
+    },
+    {
+      "id": "25",
+      "username": "allenaa",
+      "email": "allenaa@gmail.com",
+      "password": "$2a$10$zPkeCTwklI2d2P0c0N0ceOiNXZhVXw3yLF8xSigWquq3L6D2Amq6C",
+      "role": "user",
+      "isBuyer": true,
+      "isSeller": true,
+      "buyerId": "18",
+      "sellerId": "24",
+      "createdAt": "2025-10-06T06:13:25.487Z",
+      "updatedAt": "2025-10-06T06:20:47.776Z"
+    },
+    {
+      "id": "26",
+      "username": "allen",
+      "email": "2002allen@gmail.com",
+      "password": "$2a$10$XqqbuGTA/qttWUTvZFyquOsJrSvRxhisbWVNAThz9WoWrv2bWKaf6",
+      "role": "user",
+      "isBuyer": true,
+      "isSeller": true,
+      "buyerId": "19",
+      "sellerId": "25",
+      "createdAt": "2025-11-04T05:13:16.366Z"
+    },
+    {
+      "id": "31",
+      "username": "test",
+      "email": "test3@gmail.com",
+      "password": "$2a$10$5wpbxGrbR/TZHvfHoU9wt.fyifi94vHQumeI134Wd5mYk1yQku1Qy",
+      "role": "admin",
+      "isBuyer": true,
+      "isSeller": true,
+      "buyerId": "24",
+      "sellerId": "28",
+      "createdAt": "2025-10-30T13:12:01.960Z"
+    },
+    {
+      "id": "32",
+      "username": "pavan",
+      "email": "pavan@gmail.com",
+      "password": "$2a$10$n5Exaz2EGis3/t5XlKnrWe4nIoWIkOHj6rN7ziOZBeIyhV8uO/YUO",
+      "role": "admin",
+      "isBuyer": true,
+      "isSeller": true,
+      "buyerId": "25",
+      "sellerId": "29",
+      "createdAt": "2025-10-30T13:15:06.857Z"
+    }
+  ]
+}

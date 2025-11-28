@@ -1,0 +1,77 @@
+package com.onepiece.reviewservice.model;
+
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.data.annotation.CreatedBy;
+import org.springframework.data.annotation.LastModifiedBy;
+
+import java.time.Instant;
+
+@Entity
+@Table(name="reviews")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class Review {
+
+    public Review(Integer buyerId, Integer sellerId, Integer auctionId, String review, Float rating) {
+        this.buyerId = buyerId;
+        this.sellerId = sellerId;
+        this.auctionId = auctionId;
+        this.review = review;
+        this.rating = rating;
+    }
+
+    public Review(Integer id, Integer buyerId, Integer sellerId, Integer auctionId, String review, Float rating) {
+        this.id = id;
+        this.buyerId = buyerId;
+        this.sellerId = sellerId;
+        this.auctionId = auctionId;
+        this.review = review;
+        this.rating = rating;
+    }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "review_id")
+    private Integer id;
+
+    @Column(name = "buyer_id", nullable = false)
+    private Integer buyerId;
+
+    @Column(name  = "seller_id", nullable = false)
+    private Integer sellerId;
+
+    @Column(name = "auction_id", nullable = false)
+    private Integer auctionId;
+
+    @Column(nullable = false, length = 1000)
+    private String review;
+
+    @Column(nullable = false)
+    private Float rating;
+
+    @Version
+    @Column(name = "version")
+    private Long version = 1L;
+
+
+    @Column(name = "created_at", nullable = false, updatable = false,insertable = false)
+    private Instant createdAt;
+
+    @Column(name = "updated_at", nullable = false, insertable = false, updatable = false)
+    private Instant updatedAt;
+
+    @CreatedBy
+    @Column(name = "created_by", updatable = false)
+    private Integer createdBy;
+
+    @LastModifiedBy
+    @Column(name = "updated_by")
+    private Integer updatedBy;
+}

@@ -1,0 +1,226 @@
+2025-11-13T22:15:52.037+05:30  INFO 38536 --- [payment-service] [main] c.o.p.PaymentServiceApplication          : Starting PaymentServiceApplication using Java 21 with PID 38536 (C:\Users\2440656\Project\Auction-Bidding\Microservices\payment-service\target\classes started by 2440656 in C:\Users\2440656\Project\Auction-Bidding\Microservices\payment-service)
+2025-11-13T22:15:52.067+05:30  INFO 38536 --- [payment-service] [main] c.o.p.PaymentServiceApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-11-13T22:15:54.614+05:30  INFO 38536 --- [payment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-13T22:15:54.884+05:30  INFO 38536 --- [payment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 247 ms. Found 1 JPA repository interface.
+2025-11-13T22:15:55.297+05:30  INFO 38536 --- [payment-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=07e32564-bb7b-3037-8656-facecbfea7c3
+2025-11-13T22:15:56.159+05:30  INFO 38536 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4040 (http)
+2025-11-13T22:15:56.189+05:30  INFO 38536 --- [payment-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-13T22:15:56.189+05:30  INFO 38536 --- [payment-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-13T22:15:56.335+05:30  INFO 38536 --- [payment-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-13T22:15:56.335+05:30  INFO 38536 --- [payment-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4164 ms
+2025-11-13T22:15:56.765+05:30  INFO 38536 --- [payment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-13T22:15:57.178+05:30  INFO 38536 --- [payment-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@315cf170
+2025-11-13T22:15:57.180+05:30  INFO 38536 --- [payment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-13T22:15:57.243+05:30  INFO 38536 --- [payment-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-13T22:15:57.338+05:30  INFO 38536 --- [payment-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-13T22:15:57.398+05:30  INFO 38536 --- [payment-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-13T22:15:57.866+05:30  INFO 38536 --- [payment-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-13T22:15:58.000+05:30  WARN 38536 --- [payment-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-13T22:15:58.025+05:30  INFO 38536 --- [payment-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-13T22:15:59.193+05:30  INFO 38536 --- [payment-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-13T22:15:59.344+05:30  INFO 38536 --- [payment-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-13T22:15:59.868+05:30  INFO 38536 --- [payment-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-13T22:16:01.132+05:30  WARN 38536 --- [payment-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-13T22:16:02.685+05:30  INFO 38536 --- [payment-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-13T22:16:02.757+05:30  WARN 38536 --- [payment-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-13T22:16:02.834+05:30  INFO 38536 --- [payment-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-13T22:16:02.861+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-13T22:16:02.865+05:30  INFO 38536 --- [payment-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T22:16:02.874+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-13T22:16:02.874+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-13T22:16:02.874+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-13T22:16:02.874+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-13T22:16:02.874+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-13T22:16:02.874+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-13T22:16:02.874+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-13T22:16:03.365+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-13T22:16:03.367+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-13T22:16:03.369+05:30  INFO 38536 --- [payment-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-13T22:16:03.371+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763052363370 with initial instances count: 1
+2025-11-13T22:16:03.374+05:30  INFO 38536 --- [payment-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2025-11-13T22:16:03.374+05:30  INFO 38536 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763052363374, current=UP, previous=STARTING]
+2025-11-13T22:16:03.379+05:30  INFO 38536 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040: registering service...
+2025-11-13T22:16:03.415+05:30  INFO 38536 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4040 (http) with context path '/'
+2025-11-13T22:16:03.416+05:30  INFO 38536 --- [payment-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 4040
+2025-11-13T22:16:03.475+05:30  INFO 38536 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040 - registration status: 204
+2025-11-13T22:16:03.549+05:30  INFO 38536 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7000 (http)
+2025-11-13T22:16:03.552+05:30  INFO 38536 --- [payment-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-13T22:16:03.553+05:30  INFO 38536 --- [payment-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-13T22:16:03.665+05:30  INFO 38536 --- [payment-service] [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-11-13T22:16:03.666+05:30  INFO 38536 --- [payment-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 237 ms
+2025-11-13T22:16:03.690+05:30  INFO 38536 --- [payment-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2025-11-13T22:16:03.792+05:30  INFO 38536 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 7000 (http) with context path '/'
+2025-11-13T22:16:03.841+05:30  INFO 38536 --- [payment-service] [main] c.o.p.PaymentServiceApplication          : Started PaymentServiceApplication in 13.308 seconds (process running for 15.014)
+2025-11-13T22:16:05.321+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2025-11-13T22:16:05.322+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763052365322, current=DOWN, previous=UP]
+2025-11-13T22:16:05.322+05:30  INFO 38536 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040: registering service...
+2025-11-13T22:16:05.325+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-13T22:16:05.329+05:30  INFO 38536 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040 - registration status: 204
+2025-11-13T22:16:05.334+05:30  INFO 38536 --- [payment-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-13T22:16:05.335+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-13T22:16:05.342+05:30  INFO 38536 --- [payment-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-13T22:16:05.354+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-13T22:16:05.358+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-13T22:16:05.368+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-13T22:16:05.370+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-11-13T22:16:08.375+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-11-13T22:16:08.395+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040 - deregister  status: 200
+2025-11-13T22:16:08.395+05:30  INFO 38536 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-11-13T22:40:33.366+05:30  INFO 10052 --- [payment-service] [main] c.o.p.PaymentServiceApplication          : Starting PaymentServiceApplication using Java 21 with PID 10052 (C:\Users\2440656\Project\Auction-Bidding\Microservices\payment-service\target\classes started by 2440656 in C:\Users\2440656\Project\Auction-Bidding\Microservices\payment-service)
+2025-11-13T22:40:33.370+05:30  INFO 10052 --- [payment-service] [main] c.o.p.PaymentServiceApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-11-13T22:40:35.423+05:30  INFO 10052 --- [payment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-13T22:40:35.648+05:30  INFO 10052 --- [payment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 196 ms. Found 1 JPA repository interface.
+2025-11-13T22:40:36.140+05:30  INFO 10052 --- [payment-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6ca54420-0bd8-38da-b677-e1e0b5151dbc
+2025-11-13T22:40:37.095+05:30  INFO 10052 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4040 (http)
+2025-11-13T22:40:37.123+05:30  INFO 10052 --- [payment-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-13T22:40:37.124+05:30  INFO 10052 --- [payment-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-13T22:40:37.283+05:30  INFO 10052 --- [payment-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-13T22:40:37.284+05:30  INFO 10052 --- [payment-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3804 ms
+2025-11-13T22:40:37.724+05:30  INFO 10052 --- [payment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-13T22:40:38.259+05:30  INFO 10052 --- [payment-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ec508e6
+2025-11-13T22:40:38.264+05:30  INFO 10052 --- [payment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-13T22:40:38.376+05:30  INFO 10052 --- [payment-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-13T22:40:38.456+05:30  INFO 10052 --- [payment-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-13T22:40:38.520+05:30  INFO 10052 --- [payment-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-13T22:40:38.961+05:30  INFO 10052 --- [payment-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-13T22:40:39.060+05:30  WARN 10052 --- [payment-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-13T22:40:39.077+05:30  INFO 10052 --- [payment-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-13T22:40:39.842+05:30  INFO 10052 --- [payment-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-13T22:40:39.915+05:30  INFO 10052 --- [payment-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-13T22:40:40.300+05:30  INFO 10052 --- [payment-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-13T22:40:41.542+05:30  WARN 10052 --- [payment-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-13T22:40:43.498+05:30  INFO 10052 --- [payment-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-13T22:40:43.553+05:30  WARN 10052 --- [payment-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-13T22:40:43.626+05:30  INFO 10052 --- [payment-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-13T22:40:43.656+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-13T22:40:43.660+05:30  INFO 10052 --- [payment-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T22:40:43.670+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-13T22:40:43.670+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-13T22:40:43.670+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-13T22:40:43.670+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-13T22:40:43.670+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-13T22:40:43.671+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-13T22:40:43.671+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-13T22:40:44.095+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-13T22:40:44.097+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-13T22:40:44.099+05:30  INFO 10052 --- [payment-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-13T22:40:44.101+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763053844100 with initial instances count: 4
+2025-11-13T22:40:44.103+05:30  INFO 10052 --- [payment-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2025-11-13T22:40:44.104+05:30  INFO 10052 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763053844104, current=UP, previous=STARTING]
+2025-11-13T22:40:44.105+05:30  INFO 10052 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040: registering service...
+2025-11-13T22:40:44.125+05:30  INFO 10052 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4040 (http) with context path '/'
+2025-11-13T22:40:44.126+05:30  INFO 10052 --- [payment-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 4040
+2025-11-13T22:40:44.149+05:30  INFO 10052 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040 - registration status: 204
+2025-11-13T22:40:44.230+05:30  INFO 10052 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 7000 (http)
+2025-11-13T22:40:44.231+05:30  INFO 10052 --- [payment-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-13T22:40:44.231+05:30  INFO 10052 --- [payment-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-13T22:40:44.305+05:30  INFO 10052 --- [payment-service] [main] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-11-13T22:40:44.306+05:30  INFO 10052 --- [payment-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 172 ms
+2025-11-13T22:40:44.342+05:30  INFO 10052 --- [payment-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2025-11-13T22:40:44.458+05:30  INFO 10052 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 7000 (http) with context path '/'
+2025-11-13T22:40:44.493+05:30  INFO 10052 --- [payment-service] [main] c.o.p.PaymentServiceApplication          : Started PaymentServiceApplication in 11.979 seconds (process running for 13.297)
+2025-11-13T22:41:20.897+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2025-11-13T22:41:20.898+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763053880898, current=DOWN, previous=UP]
+2025-11-13T22:41:20.898+05:30  INFO 10052 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040: registering service...
+2025-11-13T22:41:20.901+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-13T22:41:20.910+05:30  INFO 10052 --- [payment-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-13T22:41:20.911+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-13T22:41:20.914+05:30  INFO 10052 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040 - registration status: 204
+2025-11-13T22:41:20.919+05:30  INFO 10052 --- [payment-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-13T22:41:20.938+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-13T22:41:20.940+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-13T22:41:20.949+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-13T22:41:20.952+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-11-13T22:41:23.957+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-11-13T22:41:23.984+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:4040 - deregister  status: 200
+2025-11-13T22:41:23.985+05:30  INFO 10052 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-11-13T22:41:31.906+05:30  INFO 29512 --- [payment-service] [main] c.o.p.PaymentServiceApplication          : Starting PaymentServiceApplication using Java 21 with PID 29512 (C:\Users\2440656\Project\Auction-Bidding\Microservices\payment-service\target\classes started by 2440656 in C:\Users\2440656\Project\Auction-Bidding\Microservices\payment-service)
+2025-11-13T22:41:31.915+05:30  INFO 29512 --- [payment-service] [main] c.o.p.PaymentServiceApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-11-13T22:41:34.810+05:30  INFO 29512 --- [payment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-13T22:41:35.020+05:30  INFO 29512 --- [payment-service] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 1 JPA repository interface.
+2025-11-13T22:41:35.419+05:30  INFO 29512 --- [payment-service] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6b227f45-2472-3b5f-bf26-21fc4c10c8c6
+2025-11-13T22:41:36.616+05:30  INFO 29512 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8094 (http)
+2025-11-13T22:41:36.661+05:30  INFO 29512 --- [payment-service] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-13T22:41:36.662+05:30  INFO 29512 --- [payment-service] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-13T22:41:36.807+05:30  INFO 29512 --- [payment-service] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-13T22:41:36.808+05:30  INFO 29512 --- [payment-service] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4747 ms
+2025-11-13T22:41:37.567+05:30  INFO 29512 --- [payment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-13T22:41:38.092+05:30  INFO 29512 --- [payment-service] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45b8bbbf
+2025-11-13T22:41:38.098+05:30  INFO 29512 --- [payment-service] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-13T22:41:38.206+05:30  INFO 29512 --- [payment-service] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-13T22:41:38.384+05:30  INFO 29512 --- [payment-service] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-13T22:41:38.471+05:30  INFO 29512 --- [payment-service] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-13T22:41:38.954+05:30  INFO 29512 --- [payment-service] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-13T22:41:39.059+05:30  WARN 29512 --- [payment-service] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-13T22:41:39.083+05:30  INFO 29512 --- [payment-service] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-13T22:41:40.135+05:30  INFO 29512 --- [payment-service] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-13T22:41:40.239+05:30  INFO 29512 --- [payment-service] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-13T22:41:41.078+05:30  INFO 29512 --- [payment-service] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-13T22:41:42.921+05:30  WARN 29512 --- [payment-service] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-13T22:41:44.237+05:30  INFO 29512 --- [payment-service] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-13T22:41:45.995+05:30  INFO 29512 --- [payment-service] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-13T22:41:46.093+05:30  WARN 29512 --- [payment-service] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-13T22:41:46.208+05:30  INFO 29512 --- [payment-service] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-13T22:41:46.255+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-13T22:41:46.266+05:30  INFO 29512 --- [payment-service] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T22:41:46.286+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-13T22:41:46.287+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-13T22:41:46.287+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-13T22:41:46.287+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-13T22:41:46.287+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-13T22:41:46.287+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-13T22:41:46.287+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-13T22:41:46.948+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-13T22:41:46.951+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-13T22:41:46.954+05:30  INFO 29512 --- [payment-service] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-13T22:41:46.957+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763053906956 with initial instances count: 4
+2025-11-13T22:41:46.963+05:30  INFO 29512 --- [payment-service] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application PAYMENT-SERVICE with eureka with status UP
+2025-11-13T22:41:46.965+05:30  INFO 29512 --- [payment-service] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763053906965, current=UP, previous=STARTING]
+2025-11-13T22:41:46.971+05:30  INFO 29512 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:8094: registering service...
+2025-11-13T22:41:47.007+05:30  INFO 29512 --- [payment-service] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8094 (http) with context path '/'
+2025-11-13T22:41:47.009+05:30  INFO 29512 --- [payment-service] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8094
+2025-11-13T22:41:47.036+05:30  INFO 29512 --- [payment-service] [main] c.o.p.PaymentServiceApplication          : Started PaymentServiceApplication in 16.52 seconds (process running for 17.643)
+2025-11-13T22:41:47.051+05:30  INFO 29512 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:8094 - registration status: 204
+2025-11-13T22:46:46.297+05:30  INFO 29512 --- [payment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T22:51:46.311+05:30  INFO 29512 --- [payment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T22:56:46.326+05:30  INFO 29512 --- [payment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T23:01:46.335+05:30  INFO 29512 --- [payment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T23:06:46.344+05:30  INFO 29512 --- [payment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T23:11:46.361+05:30  INFO 29512 --- [payment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T23:16:46.370+05:30  INFO 29512 --- [payment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T23:21:46.388+05:30  INFO 29512 --- [payment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T23:26:46.409+05:30  INFO 29512 --- [payment-service] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-13T23:26:51.490+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2025-11-13T23:26:51.491+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763056611491, current=DOWN, previous=UP]
+2025-11-13T23:26:51.493+05:30  INFO 29512 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:8094: registering service...
+2025-11-13T23:26:51.535+05:30  INFO 29512 --- [payment-service] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:8094 - registration status: 204
+2025-11-13T23:26:51.585+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-13T23:26:51.633+05:30  INFO 29512 --- [payment-service] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-13T23:26:51.668+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-13T23:26:51.697+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-13T23:26:51.720+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-13T23:26:51.726+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-11-13T23:26:54.740+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-11-13T23:26:54.758+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_PAYMENT-SERVICE/LTIN649665.cts.com:payment-service:8094 - deregister  status: 200
+2025-11-13T23:26:54.759+05:30  INFO 29512 --- [payment-service] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

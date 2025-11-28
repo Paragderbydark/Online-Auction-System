@@ -1,0 +1,160 @@
+
+.mainSection {
+  position: relative; /* Ensure positioning works */
+  top: 0;
+  right: 0;
+  background: black;
+  overflow-y: auto;
+  height: 100%; /* Full viewport height */
+  width: 100%;  /* Full viewport width if needed */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cover{
+  top:0;
+  left: 0;
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: unset;
+  background:rgb(29, 30, 34);
+}
+
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  height: 80%;
+  background: #000;
+  padding-top: 20px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 20px;
+  gap:15px;
+  background-image: url('../assets/trust.svg');
+  background-size: cover;         
+  background-position: center;   
+  background-repeat: no-repeat;
+}
+
+
+
+.cover1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: 25px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(29, 30, 34);
+  padding: 40px;
+  box-sizing: border-box;
+  justify-items: center; 
+  align-content: start;
+}
+
+
+
+.card {
+  background: #393f4d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;  
+  overflow: hidden;
+  word-break: break-word;
+  border: 2px solid rgba(254, 218, 106, 0.2);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(254, 218, 106, 0.2);
+  border-color: rgba(254, 218, 106, 0.4);
+}
+
+.insideCard {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;        
+  align-items: flex-start;           
+  justify-content: flex-start;       
+  overflow-y: auto;              
+  box-sizing: border-box;
+  text-align: left;            
+  color: #d4d4dc;
+  background-color: rgba(29, 30, 34, 0.5);
+}
+
+.insideCard::-webkit-scrollbar {
+  width: 6px;
+}
+
+.insideCard::-webkit-scrollbar-track {
+  background: rgba(29, 30, 34, 0.8);
+  border-radius: 10px;
+}
+
+.insideCard::-webkit-scrollbar-thumb {
+  background: #feda6a;
+  border-radius: 10px;
+}
+
+.insideCard::-webkit-scrollbar-thumb:hover {
+  background: #ffed85;
+}
+
+@media (max-width: 780px) {
+  .cover1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .card, .reviewCard {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    min-width: unset;
+  }
+
+  .insideCard {
+    height: auto;
+    padding-top: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
