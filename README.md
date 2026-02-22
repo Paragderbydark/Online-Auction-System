@@ -121,10 +121,5 @@ Contributions are what make the open-source community such an amazing place to l
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
----
 
 Thank you for checking out our Online Auction System! We hope you find it as exciting to use as we did to build it. If you have any suggestions or feedback, please feel free to open an issue.
